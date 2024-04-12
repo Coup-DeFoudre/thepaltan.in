@@ -1,5 +1,6 @@
 import { Urbanist } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const urbanist = Urbanist({ subsets: ["latin"] });
@@ -18,7 +19,7 @@ export default function RootLayout({ children }) {
         
         <div className="absolute inset-0 -z-50 max-h-screen background-gradient"></div>
         <div className="absolute pointer-events-none inset-0 -z-40 h-full opacity-20 mix-blend-soft-light"></div>
-       
+        <SpeedInsights/>
       </body>
     </html>
   );
