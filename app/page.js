@@ -39,7 +39,7 @@ const Home = () => {
                   </div>
                 </div>
               </Link>
-              <Link href="/home">
+              <Link href="/">
                 {" "}
                 <div className="bg-[#43B27F] flex items-center justify-between rounded-lg text-xl sm:text-2xl md:text-3xl w-[75%]  p-1  shadow-black drop-shadow-2xl">
                   <h3 className="px-5 md:px-10 font-semibold py-2">
