@@ -1,8 +1,8 @@
-import { Geologica } from "next/font/google";
+import { Urbanist } from "next/font/google";
 import "./globals.css";
 
 
-const hanuman = Geologica({ subsets: ["latin"] });
+const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata = {
   title: "The Paltan",
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-[#050505] text-gray-100">
-      <body className={hanuman.className}>
+      <body className={urbanist.className}>
        
         {children}
         
