@@ -97,8 +97,8 @@ const Home = () => {
               srcSet=""
               className="absolute h-52 top-[40%] right-0"
             />
-            <p className="text-[#050505] py-5 font-light text-justify text-base sm:text-xl tracking-tight">
-              <span className="font-normal ">The Paltan</span> is a modern
+            <p className="text-[#050505] py-5 font-normal text-justify text-base sm:text-xl">
+              <span className="font-semibold ">The Paltan</span> is a modern
               digital media channel focused on delivering news and content with
               an <span className="font-bold">India-first perspective.</span> It
               aims to be an open platform for digital and mobile journalism,
