@@ -7,7 +7,7 @@ import {
   FaTwitter,
 } from "react-icons/fa6";
 import Link from "next/link";
-import Footer from "@/components/footer";
+import Footer from "../Components/footer"
 
 const Home = () => {
   return (
