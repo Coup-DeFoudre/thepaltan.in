@@ -27,7 +27,7 @@ const Home = () => {
               Join Our Community
             </h1>
             <div className="btn mt-12 flex flex-col gap-5">
-              <Link href="https://forms.gle/wqR5f2kT8oARkHFP7" target="_blank">
+              <Link href="https://forms.gle/wqR5f2kT8oARkHFP7" target="_blank" >
                 {" "}
                 <div className="bg-[#43B27F] flex items-center justify-between rounded-lg text-xl sm:text-2xl md:text-3xl w-[75%]  p-1  shadow-black drop-shadow-2xl">
                   <h3 className="px-5 md:px-10 font-semibold py-2">
@@ -39,11 +39,11 @@ const Home = () => {
                   </div>
                 </div>
               </Link>
-              <Link href="/">
+              <Link href="https://forms.gle/wQYoUM2uswJf9yHv9" target="_blank">
                 {" "}
                 <div className="bg-[#43B27F] flex items-center justify-between rounded-lg text-xl sm:text-2xl md:text-3xl w-[75%]  p-1  shadow-black drop-shadow-2xl">
                   <h3 className="px-5 md:px-10 font-semibold py-2">
-                    Join as Member
+                    Get Hired !!!
                   </h3>
 
                   <div className="bg-[#D9D9D9] text-[#050505] rounded-lg p-2 mr-1">
@@ -51,11 +51,11 @@ const Home = () => {
                   </div>
                 </div>{" "}
               </Link>
-              <Link href="https://forms.gle/wqR5f2kT8oARkHFP7" target="_blank">
+              <Link href="/" className="cursor-not-allowed opacity-50">
                 {" "}
                 <div className="bg-[#43B27F] flex items-center justify-between rounded-lg text-xl sm:text-2xl md:text-3xl  w-[75%]  shadow-black drop-shadow-2xl  p-1">
                   <h3 className="px-5 md:px-10 font-semibold py-2">
-                    Join as Volunteer
+                    Join as Member
                   </h3>
 
                   <div className="bg-[#D9D9D9] text-[#050505] rounded-lg p-2 mr-1">
