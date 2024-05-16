@@ -27,9 +27,9 @@ const Home = () => {
               Join Our Community
             </h1>
             <div className="btn mt-12 flex flex-col gap-5">
-              <Link href="https://forms.gle/wqR5f2kT8oARkHFP7" target="_blank" >
+              <Link href="https://forms.gle/wqR5f2kT8oARkHFP7" target="_blank" className="cursor-not-allowed opacity-50" >
                 {" "}
-                <div className="bg-[#43B27F] flex items-center justify-between rounded-lg text-xl sm:text-2xl md:text-3xl w-[75%]  p-1  shadow-black drop-shadow-2xl">
+                <div className="bg-[#43B27F] flex items-center justify-between rounded-lg text-xl sm:text-2xl md:text-3xl w-[75%]  p-1  shadow-black drop-shadow-2xl ">
                   <h3 className="px-5 md:px-10 font-semibold py-2">
                     Join as Intern
                   </h3>
