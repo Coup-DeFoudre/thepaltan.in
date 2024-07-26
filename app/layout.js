@@ -8,7 +8,7 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata = {
   title: "The Paltan",
-  description: "offician website of The Paltan Media. The Paltan is a modern digital media channel focused on delivering news and content with an India-first perspective. It aims to be an open platform for digital and mobile journalism, providing its audience with timely and relevant information tailored to their interests and needs.",
+  description: "official website of The Paltan Media. The Paltan is a modern digital media channel focused on delivering news and content with an India-first perspective. It aims to be an open platform for digital and mobile journalism, providing its audience with timely and relevant information tailored to their interests and needs.",
 };
 
 export default function RootLayout({ children }) {
